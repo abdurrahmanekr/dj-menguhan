@@ -6,7 +6,7 @@ function getElementsByText(str, tag = 'a') {
 
 function makeDJ(elements) {
     elements.forEach(elem => {
-        elem.innerHTML = elem.innerHTML.replace(new RegExp(BOSS, 'g'), `Dj. ${BOSS}`);
+        elem.innerHTML = elem.innerHTML.replace(new RegExp(BOSS, 'g'), `Dj ${BOSS}`);
     });
 }
 
